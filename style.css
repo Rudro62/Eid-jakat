@@ -1,3 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+.top-side {
+    background-image: url(images/Rectangle\ 1.png);
+}
+
+.top-area {
+    margin-left: 200px;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.top-area p {
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.donate-button {
+    background-image: linear-gradient(tomato, red);
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.explore {
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.flex {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.flex img {
+    width: 80%;
+    height: 100%;
+}
+
+.flex-item {
+    margin-right: 100px;
+}
+
+.prayer {
+    width: 100%;
+    height: 100%;
+}
+
+.font {
+    color: darkgray;
+}
+
+.help {
+    text-align: center;
+}
+
+.help-area {
+    display: flex;
+    margin-left: 250px;
+}
+
+.direct-help {
+    background-color: #FEF4F5;
+    padding: 20px 60px;
+    margin-right: 20PX;
+}
+
+.icon {
+    padding-top: 20px;
+    margin-right: -80px;
 }
